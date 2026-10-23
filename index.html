@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Talib Hussain - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Talib Hussain
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          talibakram801@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +923046667417
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="C:\Users\talib\OneDrive\Desktop\My portfolio website\html_finalprojimages\file_0000000096948211ab87885b5fb53768.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Talib Hussain! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a Computer Science undergraduate at Shah Abdul Latif University and a Frontend Developer skilled in building clean, interactive web interfaces.
+            I have a strong programming foundation with advanced proficiency in Python and Object-Oriented Programming (OOP) in C++. 
+            I am an avid learner currently expanding my expertise into backend technologies to transition into a full stack developer role.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+
+        <div class="skill">
+            <img src="html_finalprojimages\python.jpg"/>
+            <h6>Python</h6>
+        </div>
+        <div class="skill">
+            <img src="html_finalprojimages\C++.png"/>
+            <h6>C++</h6>
+        </div>
+        <div class="skill">
+            <img src="html_finalprojimages/html5.png"/>
+            <h6>HTML</h6>
+        </div>  
+        <div class="skill">
+            <img src="html_finalprojimages\CSS3.png"/>
+            <h6>CSS</h6>
+        </div>
+        <div class="skill">
+            <img src="html_finalprojimages/js.jpeg"/>
+            <h6>JavaScript</h6>
+        </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+<section class="projects" id="projects">
+    <h2>
+      Projects
+    </h2>
+    <div style="clear:both;"></div>
+  
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>Library Management System</h3>
+        <ul>
+          <li>An advanced, console-based Library Management System built entirely in pure Python. The application leverages a modular architecture and complex Object-Oriented Programming (OOP) principles to seamlessly power distinct Admin and Member portals. It incorporates advanced backend logic for real-time book circulation, secure user authentication, automated fine calculations, and robust JSON data persistence.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Banking System</h3>
+        <ul>
+          <li>A robust command-line banking application built using Python and Object-Oriented Programming (OOP) principles. It features secure user authentication, efficient account management, transaction handling, and persistent data storage utilizing JSON file management. Designed with comprehensive exception handling to ensure crash-proof operation and a seamless user experience.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>File Handling Project</h3>
+        <ul>
+          <li>A lightweight Python application that performs complete Create, Read, Update, and Delete (CRUD) operations on text files. Built with efficient file-handling logic and robust error management to securely manage and modify local data records.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Number Guessing Game</h3>
+        <ul>
+          <li>An interactive console game where Python randomly selects a number between 1 and 50. Players have a maximum of 5 attempts to guess it correctly, featuring live attempt tracking and automatic revelation of the correct number if the limit is exceeded.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Talib is a dedicated developer with strong Python skills and excellent problem-solving abilities. 
+          He writes clean code, learns quickly, and approaches challenges with confidence.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Talib has been a great experience. 
+          His understanding of C++ and object-oriented programming reflects his logical thinking, commitment, and passion for software development.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Talib demonstrates creativity and enthusiasm in frontend development. 
+          His knowledge of HTML, CSS, and JavaScript helps him build structured, user-friendly interfaces with attention to detail. 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
